@@ -1,0 +1,19 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: gray;
+}
+#title {
+    margin: 0;
+}
+#imagebar {
+
+    padding: 40px;
+}
+#imagebar img {
+    display: inline;
+    width: 200px;
+    border-radius: 60%;
+    border: 12px solid #333333;
+    margin: 0 80px;
+}
