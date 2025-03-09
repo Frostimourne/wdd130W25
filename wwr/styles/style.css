@@ -255,6 +255,42 @@ footer .social img {
 
 
 
+/* FAQ */
+
+#faq_banner {
+    background-color: #001524;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 300px;
+}
+
+#faq_head_text {
+    grid-column: 1/3;
+}
+
+#faq_banner h1{
+    color: #EE3F00;
+    font-family: "Permanent Marker", 'Copperplate', sans-serif;
+    font-size: 5em;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 75px;
+}
+#faq_banner p{
+    color: #EE3F00;
+    font-family: "Rubik Dirt", 'Monaco', sans-serif;
+    font-size: 1.5em;
+    padding-left: 75px;
+}
+#faq_banner img{
+    margin: 10px auto;
+    width: 100%;
+    max-width: 100px;
+    max-height: 280px;
+    grid-column: 3/5;
+}
 
 
 
