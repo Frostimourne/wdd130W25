@@ -281,12 +281,14 @@ footer .social img {
     margin-bottom: 0px;
     padding-left: 75px;
 }
+
 #faq_banner p{
     color: #EE3F00;
     font-family: "Rubik Dirt", 'Monaco', sans-serif;
     font-size: 1.5em;
     padding-left: 75px;
 }
+
 #faq_banner img{
     margin: auto;
     margin-right: 10%;
@@ -294,6 +296,26 @@ footer .social img {
     max-width: 450px;
     grid-column: 4/5;
 }
+
+.faq_h1 {
+    color: #EE3F00;
+    font-family: "Permanent Marker", 'Copperplate', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.faq_p {
+    color: #001524;
+    font-family: "Permanent Marker", 'Copperplate', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 1.25em;
+    background-color: #EE3F00;
+}
+
 hr {
     height: 5px;
     background-color: #001524;
