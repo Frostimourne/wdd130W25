@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    
     <title>JM VO Portfolio | FAQ</title>
+    
 </head>
 <body>
     <header>
-        <a href="index.html" class="logo">
-            <img src="images/logo-purple.png" alt="Logo">
+        <a href="index.html" id="logo_link">
+            <img class="logo" src="images/logo-purple.png" alt="Logo">
         </a>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="demo.html">Demo and Samples</a></li>
-                <li><a href="faq.html">FAQ and Contact Me</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="demo.html">Samples</a>
+            <a href="faq.html">FAQ</a>
         </nav>
     </header>
     <main>
         <div class="faq-banner">
-            <img src="images/HomePage2.jpg" alt="Hero Image">
+            <img id="faq-banner-img" src="images/FAQ1.jpg" alt="Hero Image">
             <h1 id="faq-banner-title">Frequently Asked Questions</h1>
         </div>
 
+        <button class="accordion">Do you provide video recordings for hosted content?</button>
+        <div class="panel">
+            <p>I currently provide audio only deliveries, as my home studio is not equipped for more than basic video calling from a cheap webcam</p>
+        </div>
 
-        
+        <button class="accordion">How fast can you deliver my audio? I need it yesterday!</button>
+        <div class="panel">
+            <p>You can typically expect shorter projects (less than 1000 words) to be delivered within a few days. Longer projects will by their nature take longer to produce in order to accommodate my other projects and personal obligations. If you do find yourself in dire need of immediate delivery, appropriate compensation can be negotiated.</p>
+        </div>
 
+        <button class="accordion">Are you able to split recordings into multiple files? Or sync audio to a provided clip? Or proofread my script for grammatical errors or to adjust phrasings to make it read more naturally?</button>
+        <div class="panel">
+            <p>Of course! Many of these add-ons can be found on my Fiverr.com gig page, or requested as part of the bid phase. Please bear in mind that add-ons do carry a greater potential to increase the expected time to deliver.</p>
+        </div>
+        <script src="scripts/accordion.js" defer></script>
     </main>
     <footer>
         <p>Jordan Michaelis &copy; 2025</p>
