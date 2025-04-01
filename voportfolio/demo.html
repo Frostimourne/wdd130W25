@@ -20,25 +20,38 @@
     <main>
         <div class="demo-hero">
             <div class="demo-link-box">
-                <h2>Demo and Samples</h1>
-                <p>Don’t take my written word for it, have a listen for yourself! Below I have provided a number of samples and demos for you to listen to. Take note of the differences in tone, delivery, and tempo.</p>
+                <h1>Demo and Samples</h1>
+                <h4>Don’t take my written word for it, have a listen for yourself! Below I have provided a number of samples and demos for you to listen to. Take note of the differences in tone, delivery, and tempo.</h4>
                 <p><a href="https://www.fiverr.com/jam2759/read-your-voice-over-script">Fiverr.com gig page</a></p>
             </div>
             <img id="demo-canyon" src="images/Samples2.jpg" alt="Canyon narrows">
         </div>
         <hr>
-        <section class="sample-1-card">
-            <img class="card-img" src="images/Samples1.jpg" alt="microphone on black background">
-            <h2>sample-1</h2>
+        <section id="sample-cards">
+            <div class="sample-card" id="card1">
+                <img class="card-img" src="images/Samples1.jpg" alt="microphone on black background" onclick="playAudio('sample1')">
+                <audio id="sample1" src="audio/sample1.mp3"></audio>
+                <h2>Sample 1: Bodycam narration</h2>
+            </div>
+            <div class="sample-card" id="card2">
+                <img class="card-img" src="images/Samples1.jpg" alt="microphone on black background" onclick="playAudio('sample2')">
+                <audio id="sample2" src="audio/sample2.mp3"></audio>
+                <h2>Sample 2: Casual/Conversational</h2>
+            </div>
+            <div class="sample-card" id="card3">
+                <img class="card-img" src="images/Samples1.jpg" alt="microphone on black background" onclick="playAudio('sample3')">
+                <audio id="sample3" src="audio/sample3.mp3"></audio>
+                <h2>Sample 3: Theater Introduction</h2>
+            </div>
+            <script src="scripts/audio.js" defer></script>
         </section>
-        <section class="sample-2-card">
-            <img class="card-img" src="images/Samples1.jpg" alt="microphone on black background">
-            <h2>sample-2</h2>
-        </section>
-        <section class="sample-3-card">
-            <img class="card-img" src="images/Samples1.jpg" alt="microphone on black background">
-            <h2>sample-3</h2>
-        </section>
+
+        <hr>
+
+        <div class="link-buttons">
+            <a class="button-box" href="demo.html">Check out my demo and samples</a>
+            <a class="button-box" href="index.html">Go back to the Home Page</a>
+        </div>
     </main>
     <footer>
         <p>Jordan Michaelis &copy; 2025</p>
